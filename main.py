@@ -1,9 +1,6 @@
 from flask import Flask,render_template,request,send_file
-from flask_sqlalchemy import SQLAlchemy
-from datetime import datetime
 
 app=Flask(__name__,template_folder='Unit Convertor')
-
 
 @app.route("/")
 def home():
